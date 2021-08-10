@@ -1,0 +1,65 @@
+--create table studentd(
+--	Rollno int,
+--	F_name varchar(10) NOT NULL,
+--	L_name varchar(10),
+--	Age int)
+
+--Insert into studentd
+--values(1,'Akash','Harit',20),
+--	  (2,'nina','williams',29),
+--	  (3,'Paul','walker',35),
+--	  (4,'Jin','Mishima',31),
+--	  (5,'Kazuya','Kazuya',41);
+
+--select * from studentd;
+
+--select F_name
+--from studentd;
+
+--select top 3 *
+--from StudentDetails.dbo.studentd;
+
+--select distinct(Rollno)
+--from studentd;
+
+--select count(Rollno) AS Total from studentd;
+
+--insert into studentd
+--values (6,'Lenovo','Legion',15),
+--(7,'Logitech','G102',21),
+--(8,'red','gear',22)
+
+--select * from studentd;
+
+--Alter table studentd
+--ADD Gender varchar(2);
+
+--update studentd set Gender='m';
+
+--insert into studentd(Gender)
+--values('m','f','m','m','m','m','f','m');x
+
+--update studentd set Gender='f' where Rollno=2;
+--select * from studentd;
+
+--update studentd set Gender='f' where Rollno=7;
+--select * from studentd;
+
+--select Count('F_name'),Gender from studentd
+--group by Gender;
+
+--Select F_name from studentd where Gender='f' AND Rollno < 3;
+
+--select F_name from studentd
+--where Rollno BETWEEN '1' and '5';
+
+--Select * from studentd 
+--where F_name 
+--like 'n%';
+
+--Select F_name from studentd 
+--where F_name 
+--like 'A___%';
+
+--select * from studentd
+--order by 1 DESC;
